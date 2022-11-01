@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Kanit', sans-serif;
+}
+
+body {
+	background-image: url('../public/soleado.jpg');
+}
+
+.main-time {
+	display: block;
+	margin: 20px;
+	justify-content: center;
+	width: 30%;
+}
+
+.tittle {
+	display: block;
+	font-size: 50px;
+	filter: drop-shadow(8px 8px 4px black);
+}
+
+.card-main {
+	display: block;
+	background: rgba(0, 0, 0, 0.555);
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.country {
+	display: flex;
+	width: 300px;
+	justify-content: space-evenly;
+	font-size: 30px;
+}
+
+.temp {
+	display: flex;
+	font-size: 50px;
+	padding: 10px;
+}
+
+.info {
+	display: grid;
+}
+
+.temp-info {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 20px;
+	align-items: flex-start;
+	text-align: start;
+}
+
+.fa-solid {
+	margin-left: -40px;
+}
+
+.fa-wind {
+	margin-left: 0;
+}
+
+.button {
+	border-radius: 5px;
+	padding: 5px 15px;
+	cursor: pointer;
+}
